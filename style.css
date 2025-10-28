@@ -1,0 +1,30 @@
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2rem;                    
+    font-weight: 700;                   
+    letter-spacing: 1px;                
+  }
+  /* === Acordeon com paleta CrisBella === */
+.accordion-button:not(.collapsed) {
+  color: var(--branco);
+  background: linear-gradient(90deg, var(--rosa-pink), var(--dourado));
+  box-shadow: none;
+  border: 1px solid var(--dourado-suave);
+}
+
+.accordion-button.collapsed {
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #f8d7eb;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 .25rem rgba(255, 0, 127, 0.25);
+}
+
+.accordion-item {
+  border: 1px solid rgba(255, 0, 127, 0.2);
+  border-radius: .5rem;
+  margin-bottom: .8rem;
+}
